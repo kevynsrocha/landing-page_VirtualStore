@@ -1,0 +1,22 @@
+/* Default */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%; /* 10px root */
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+}
+
+/* container principal */
+#main {
+    width: 100%;
+    min-height: 100vh;
+    max-height: 4000px;
+}
