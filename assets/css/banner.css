@@ -2,12 +2,19 @@
     width: 100%;
     max-width: 414px;
     height: 598px;
+    padding: 1px;
 }
+.banner-mobile > img {
+    display: block;
+}
+
 .banner-desktop {
     width: 100%;
-    height: 700px;
+    max-height: 700px;
+    padding: 1px;
 }
 .banner-desktop > img {
+    display: block;
     width: 100%;
     max-width: 1920px;
     height: auto;
