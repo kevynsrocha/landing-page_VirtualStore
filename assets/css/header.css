@@ -6,3 +6,9 @@
     height: 100px;
     background-color: #000;
 }
+.header__logo {
+    padding: 1px;
+}
+.header__logo > img {
+    display: block;
+}
