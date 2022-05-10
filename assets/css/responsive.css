@@ -1,10 +1,16 @@
 @media only screen and (max-width: 414px) {
-    .banner-desktop {
+    .macbook__banner-desktop {
+        display: none;
+    }
+    .three-macbook__banner-desktop {
         display: none;
     }
 }
 @media only screen and (min-width: 415px) {
-    .banner-mobile {
+    .macbook__banner-mobile {
+        display: none;
+    }
+    .three-macbook__banner-mobile {
         display: none;
     }
 }
