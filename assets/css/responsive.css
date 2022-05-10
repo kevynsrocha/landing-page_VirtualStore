@@ -5,12 +5,18 @@
     .three-macbook__banner-desktop {
         display: none;
     }
+    .glasses__banner-desktop {
+        display: none;
+    }
 }
 @media only screen and (min-width: 415px) {
     .macbook__banner-mobile {
         display: none;
     }
     .three-macbook__banner-mobile {
+        display: none;
+    }
+    .glasses__banner-mobile {
         display: none;
     }
 }
