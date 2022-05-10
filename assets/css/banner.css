@@ -1,37 +1,36 @@
-/* ||BANNER MOBILE E DESKTOP|| */
-.banner-mobile {
+/* ||BANNER COM UM MACBOOK|| */
+.macbook__banner-mobile {
+    width: 100%;
+    padding: 1px;
+}
+.macbook__banner-mobile > img {
+    display: block;
     width: 100%;
     max-width: 414px;
-    height: 598px;
-    padding: 1px;
+    max-height: 598px;
 }
-.banner-mobile > img {
-    display: block;
-}
-
-.banner-desktop {
+.macbook__banner-desktop {
     width: 100%;
-    max-height: 700px;
     padding: 1px;
 }
-.banner-desktop > img {
+.macbook__banner-desktop > img {
     display: block;
     width: 100%;
     max-width: 1920px;
-    height: auto;
+    max-height: 700px;
 }
 
-/* ||BANNER NOTEBOOK|| */
-.notebook-banner {
+/* ||BANNER COM TRÊS MACBOOKS|| */
+.three-macbook__banner-mobile {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
-    max-width: 414px;
-    height: 484px;
     background: #E0E0E0;
     padding: 32px 23px;
 }
-.notebook-banner > figure > img {
-    margin-bottom: 23px;   
+.three-macbook__banner-mobile > figure > img {
+    max-width: 414px;
+    height: 484px;
+    margin-bottom: 23px;
 }
