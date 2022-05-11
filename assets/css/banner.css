@@ -1,7 +1,6 @@
 /* ||BANNER COM UM MACBOOK|| */
 .macbook__banner-mobile {
     width: 100%;
-    padding: 1px;
 }
 .macbook__banner-mobile > img {
     display: block;
@@ -11,7 +10,6 @@
 }
 .macbook__banner-desktop {
     width: 100%;
-    padding: 1px;
 }
 .macbook__banner-desktop > img {
     display: block;
@@ -25,7 +23,6 @@
     width: 100%;
     height: 484px;
 }
-
 .three-macbook__banner-mobile {
     display: flex;
     width: 100%;
@@ -38,4 +35,13 @@
 .three-macbook__banner-mobile > figure > img {
     display: block;
     margin-bottom: 23px;
+}
+.three-macbook__banner-desktop {
+    display: flex;
+    width: 100%;
+    max-height: 484px;
+    flex-flow: row;
+    justify-content: space-between;
+    background: #E0E0E0;
+    padding: 63px 94px 0px 94px;
 }
