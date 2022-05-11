@@ -1,22 +1,94 @@
+/* ||MOBILE|| */
 @media only screen and (max-width: 414px) {
+
+    /* ||BANNER COM UM MACBOOK|| */
     .macbook__banner-desktop {
         display: none;
     }
+
+    /* ||BANNER COM TRÊS MACBOOKS|| */
     .three-macbook__banner-desktop {
         display: none;
     }
+
+    /* ||BANNER ÓCULOS|| */
     .glasses__banner-desktop {
         display: none;
     }
 }
+
+/* ||DESKTOP|| */
 @media only screen and (min-width: 415px) {
+
+    /* ||BANNER COM UM MACBOOK|| */
     .macbook__banner-mobile {
         display: none;
     }
+
+
+    /* ||CARDS DE APRESENTAÇÃO|| */
+    .info {
+        height: 1189px;
+    }
+    /* TOP INFO */
+    .info > span {
+        font-size: 3.2rem;
+        line-height: 5rem;
+    }
+    .info > h2 {
+        font-size: 4.8rem;
+        line-height: 8rem;
+    }
+    .info > p {
+        max-width: 766px;
+        height: 56px;
+    }
+
+    /* CONTAINER DOS CARDS */
+    .info__cards-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    /* ||BANNER COM TRÊS MACBOOKS|| */
     .three-macbook__banner-mobile {
         display: none;
     }
+
+
+    /* ||CARDS DE SERVIÇOS|| */
+    .services {
+        display: flex;
+        height: 749px;
+        flex-direction: row;
+    }
+    .services--card {
+        max-width: 432px;
+    }
+
+
+    /* ||SOBRE NÓS|| */
+    .about {
+        display: flex;
+        height: 708px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .about > div {
+        max-width: 550px;
+        height: 165px;
+        margin: 0px 0px 32px 0px;
+    }
+
+    /* BANNER ÓCULOS */
     .glasses__banner-mobile {
+        display: none;
+    }
+
+
+    /* ||RODAPÉ|| */
+    .footer > span > br {
         display: none;
     }
 }
