@@ -26,16 +26,14 @@
     color: #000000;
 }
 .info > p {
-    width: 80%;
-    font-family: Inter;
+    max-width: 357px;
+    font-family: 'Inter';
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
-    text-align: center;
 }
 .info > figure {
     margin: 67px 0px 80px 0px;
-    padding: 1px;
 }
 
 /* CONTAINER DOS CARDS */
@@ -45,7 +43,6 @@
     height: 60%;
     flex-direction: column;
     align-items: center;
-    padding: 1px;
     justify-content: center;
 }
 
@@ -59,11 +56,11 @@
     align-items: center;
     background-color: #fff;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
-    margin: 12px 0px;
+    margin: 12px;
 }
 .info--card > p {
     width: 80%;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
