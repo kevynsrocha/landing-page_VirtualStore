@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+}
+.footer > div {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.footer > div > figure {
+    margin: 0px 22px;
+}
+.footer > div > figure > img {
+    display: block;
+}
+.footer > span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
